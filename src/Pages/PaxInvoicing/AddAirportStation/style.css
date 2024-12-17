@@ -1,0 +1,113 @@
+.add-airport-top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #F2F4F7;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.add-airport-top-bar .search-bar {
+    width: calc(100% - 362px);
+    max-width: 291px;
+}
+.add-airport-top-bar .ant-divider-vertical{
+    height: 40px;
+    margin: 0;
+}
+.add-airport-top-bar .search-bar .ant-input-group-addon .anticon-search {
+    margin-top: 2px;
+    font-size: 20px;
+}
+
+.add-airport-top-bar .right-seaction-bar{
+    display: flex;
+    gap:8px;
+}
+
+.add-airport-top-bar .search-bar .ant-input-group-addon {
+    background: none;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    padding: 10px 8px 10px 15px;
+    position: absolute;
+    left: 0;
+}
+
+.add-airport-top-bar .ant-radio-button-wrapper{
+    height: 40px;
+    line-height: 40px;
+    color:#667085;
+    
+}
+.add-airport-top-bar .ant-radio-button-wrapper:before{
+    background: #D0D5DD !important;
+}
+.add-airport-top-bar .ant-radio-button-wrapper.ant-radio-button-wrapper-checked{
+    color:#667085;
+    border-color: #D0D5DD;
+    background: #F2F4F7;
+}
+.add-airport-top-bar .ant-radio-button-wrapper .anticon{
+    font-size: 20px;
+}
+.add-airport-top-bar .search-bar .ant-input {
+    border: 1px solid #D0D5DD;
+    background: transparent;
+    border-radius: 10px;
+    padding: 10px 15px 8px 40px;
+    height: auto;
+}
+
+.add-airport-top-bar .airport-add-btn{
+    background: #000099;
+    border-radius: 20px;
+    font-size: 16px;
+    line-height: 1.3;
+    padding: 9px 32px;
+    height: auto;
+}
+
+.airport-lists-section {
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+}
+
+.action-button .ant-btn.ant-btn-primary{
+    background: #000099;
+}
+
+
+.pagination-list{
+    text-align: right;
+    margin-top: 30px;
+}
+
+.pagination-list .ant-pagination-options{
+    display: none;
+}
+
+.pagination-list .ant-pagination-item.ant-pagination-item-active{
+    border-color: #000099;
+}
+.pagination-list .ant-pagination-item.ant-pagination-item-active a{
+    color: #000099;
+}
+
+
+
+@media (min-width:768px) {
+    .airport-lists-section.list {
+        flex-direction: column;
+    }
+
+    .airport-lists-section.app {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .airport-lists-section.app .station-item {
+        width: calc(50% - 12px);
+    }
+}

@@ -1,0 +1,89 @@
+.invoice--information-update-page .ant-table-wrapper .ant-table-content .ant-table-thead th{
+    background: #000099;
+    color: #fff;
+    text-align: left !important;
+}
+
+.invoice--information-update-page .ant-table-wrapper .ant-table-cell, 
+.invoice--information-update-page .ant-table-wrapper .ant-table-thead>tr>th, 
+.invoice--information-update-page .ant-table-wrapper .ant-table-tbody>tr>th, 
+.invoice--information-update-page .ant-table-wrapper .ant-table-tbody>tr>td, 
+.invoice--information-update-page .ant-table-wrapper tfoot>tr>th, 
+.invoice--information-update-page .ant-table-wrapper tfoot>tr>td{
+    padding: 8px 10px;
+}
+
+
+.update-modal{
+    width: 100% !important;
+    max-width: 650px;
+}
+
+.update-modal .ant-modal-title{
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #000099;
+}
+
+
+.update-modal .ant-btn-primary{
+    height: auto;
+    background: #000099;
+    border-radius: 25px;
+    padding: 10px 25px;
+}
+
+.update-modal  .ant-btn-primary.ant-btn-disabled,
+.update-modal  .ant-btn-primary:disabled{
+    background: #d7d7e0;
+}
+
+
+.update-modal .ant-btn{
+    height: auto;
+    border-radius: 25px;
+    padding: 10px 25px;
+}
+
+.update-modal .ant-btn.ant-btn-default{
+    border-color: #000099;
+    color: #000099;
+}
+
+
+.flex-direction-column{
+    flex-direction: column !important;
+    width: 100%;
+}
+
+.flex-direction-column .ant-space-item{
+    display: flex;
+    width: 100%;
+}
+
+.flex-direction-column .ant-space-item .column-full-width {
+    flex: 1;
+    align-items: start;
+}
+
+.flex-direction-column .ant-space-item .column-full-width .ant-space-item .ant-form-item{
+    width: 100%;
+}
+.error-id{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.error-id span{
+    padding: 3px 5px;
+    border-radius: 2px;
+    border:1px solid #ccc;
+}
+
+.ant-tooltip .ant-tooltip-inner{
+    background-color: #000099;
+}
+
+.ant-tooltip .ant-tooltip-arrow:before {
+    background: #000099;
+}

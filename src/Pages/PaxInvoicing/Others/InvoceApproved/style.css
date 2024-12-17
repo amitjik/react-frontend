@@ -1,0 +1,109 @@
+.table-filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #F2F4F7;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.table-filter .search-bar {
+    width: calc(100% - 504px);
+    max-width: 320px;
+}
+
+.table-filter .search-bar .ant-input-group-addon .anticon-search {
+    margin-top: 2px;
+    font-size: 20px;
+}
+
+.table-filter .right-seaction-bar{
+    display: flex;
+    gap:8px;
+}
+
+.table-filter .search-bar .ant-input-group-addon {
+    background: none;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    padding: 10px 8px 10px 15px;
+    position: absolute;
+    left: 0;
+}
+
+.action-table-btn {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.table-filter .search-bar .ant-input {
+    border: 1px solid #D0D5DD;
+    background: transparent;
+    border-radius: 10px;
+    padding: 10px 15px 8px 40px;
+    height: auto;
+}
+
+.table-filter .primary-button,
+.table-section .primary-button{
+    background: #000099;
+    border-radius: 20px;
+    font-size: 16px;
+    line-height: 1.3;
+    padding: 7px 20px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.table-filter .ant-btn-primary.primary-button:hover,
+.table-section .ant-btn-primary.primary-button:hover{
+    background: #0f0f78;
+    border-color: #0f0f78;
+    color:#fff;
+}
+
+.table-filter .secondary-button,
+.table-section .secondary-button{
+    background: #fff;
+    border-color: #000099;
+    color:#000099;
+    border-radius: 20px;
+    font-size: 16px;
+    line-height: 1.3;
+    padding: 7px 20px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.table-filter .ant-btn-primary.secondary-button:hover,
+.table-section .ant-btn-primary.secondary-button:hover{
+    background: #000099;
+    border-color: #000099;
+    color:#fff;
+}
+
+
+.table-filter .ant-btn-primary.secondary-button.filter-btn:hover svg path{
+    fill: #fff;
+}
+
+@media (max-width:767px) {
+    .table-filter {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .table-filter .right-seaction-bar {
+        width: 100%;
+    }
+    .table-filter .search-bar {
+        width:100%;
+    }
+    .table-filter .ant-btn{
+        width: 100%;
+    }
+}

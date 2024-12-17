@@ -1,0 +1,21 @@
+.basic-table .ant-table-wrapper .ant-table-content .ant-table-thead th{
+    background: #000099;
+    color: #fff;
+    text-align: left !important;
+}
+
+.basic-table .ant-table-content{
+    overflow: auto;
+}
+.basic-table .ant-table-content table{
+    white-space: nowrap;
+}
+
+.basic-table .ant-table-wrapper .ant-table-cell, 
+.basic-table .ant-table-wrapper .ant-table-thead>tr>th, 
+.basic-table .ant-table-wrapper .ant-table-tbody>tr>th, 
+.basic-table .ant-table-wrapper .ant-table-tbody>tr>td, 
+.basic-table .ant-table-wrapper tfoot>tr>th, 
+.basic-table .ant-table-wrapper tfoot>tr>td{
+    padding: 8px 10px;
+}

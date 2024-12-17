@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Bordeaux";
+    src:
+      local("Bordeaux"),
+      url("./Assests/Fonts/BordeauxMedium.ttf") format("ttf"),
+  }
+
+body{
+    font-family: 'Bordeaux', 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.3;
+    margin: 0;
+    padding: 0;
+}
+
+.ant-col,
+.ant-picker,
+.ant-form,
+.ant-menu,
+.ant-layout,
+.ant-table-wrapper .ant-table,
+.ant-select-selection-placeholder{
+    font-family: 'Bordeaux', 'Roboto', sans-serif !important;
+}
+
+.main-layout .ant-layout,
+.main-layout .ant-layout-footer{
+    background: #fff !important;
+}
+
+.ant-table-wrapper{
+    overflow: auto;
+}
+.ant-pagination-options,
+.ant-picker-clear{
+    display: none !important;
+}

@@ -1,0 +1,252 @@
+.table-filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #F2F4F7;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.table-filter .search-bar {
+    width: calc(100% - 500px);
+    max-width: 100%;
+}
+
+.table-filter .search-bar .ant-input-group-addon .anticon-search {
+    margin-top: 2px;
+    font-size: 20px;
+}
+
+.table-filter .right-seaction-bar{
+    display: flex;
+    gap:8px;
+}
+
+.table-filter .search-bar .ant-input-group-addon {
+    background: none;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    padding: 10px 8px 10px 15px;
+    position: absolute;
+    left: 0;
+}
+
+.action-table-btn {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.table-filter .search-bar .ant-input {
+    border: 1px solid #D0D5DD;
+    background: transparent;
+    border-radius: 10px;
+    padding: 10px 15px 8px 40px;
+    height: auto;
+}
+
+.table-filter .primary-button,
+.table-section .primary-button{
+    background: #000099;
+    border-radius: 20px;
+    font-size: 16px;
+    line-height: 1.3;
+    padding: 7px 20px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.table-filter .ant-btn-primary.primary-button:hover,
+.table-section .ant-btn-primary.primary-button:hover{
+    background: #0f0f78;
+    border-color: #0f0f78;
+    color:#fff;
+}
+
+.table-filter .secondary-button,
+.table-section .secondary-button{
+    background: #fff;
+    border-color: #000099;
+    color:#000099;
+    border-radius: 20px;
+    font-size: 16px;
+    line-height: 1.3;
+    padding: 7px 20px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.table-filter .ant-btn-primary.secondary-button:hover,
+.table-section .ant-btn-primary.secondary-button:hover{
+    background: #000099;
+    border-color: #000099;
+    color:#fff;
+}
+
+.table-filter .ant-btn-primary.primary-button:disabled,
+.table-filter .ant-btn-primary.primary-button.ant-btn-disabled,
+.table-section .ant-btn-primary.primary-button:disabled,
+.table-section .ant-btn-primary.primary-button.ant-btn-disabled{
+    background: #000099;
+    border-color: #000099;
+    color:#fff;
+    opacity: 0.7;
+}
+
+
+.table-filter .ant-btn-primary.secondary-button.filter-btn:hover svg path{
+    fill: #fff;
+}
+
+.content-section .next-btn-section .form-btn .ant-space-item{
+    flex: none;
+}
+
+.correction-data{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.correction-data span{
+    background: #EAF8FF;
+    padding: 5px 10px;
+    border:1px solid #348DC4;
+    border-radius: 15px;
+    color:#348DC4;
+    cursor: pointer;
+}
+
+.content-section .ant-table-expanded-row-fixed{
+    padding: 0 !important;
+}
+
+.autocorrection-modal .ant-table-wrapper .ant-table-content .ant-table-thead th,
+.table-section .ant-table-wrapper .ant-table-content .ant-table-thead th{
+    background: #000099;
+    color: #fff;
+    text-align: left !important;
+}
+
+.autocorrection-modal .ant-table-content,
+.table-section .ant-table-content{
+    overflow: auto;
+}
+.autocorrection-modal .ant-table-content table,
+.table-section .ant-table-content table{
+    white-space: nowrap;
+}
+.autocorrection-modal .ant-table-expanded-row > .ant-table-cell,
+.invoice-approved-page .ant-table-expanded-row > .ant-table-cell{
+    padding: 0 !important;
+}
+
+.invoice-approved-page .ant-table-wrapper.expanded-table .ant-table-container table>thead>tr:first-child >*:first-child{
+    border-start-start-radius: 0px;
+}
+
+.invoice-approved-page .ant-table-wrapper.expanded-table .ant-table-container table>thead>tr:first-child >*:last-child{
+    border-start-end-radius:0px;
+}
+
+.autocorrection-modal .ant-table-wrapper .ant-table-cell, 
+.autocorrection-modal .ant-table-wrapper .ant-table-thead>tr>th, 
+.autocorrection-modal .ant-table-wrapper .ant-table-tbody>tr>th, 
+.autocorrection-modal .ant-table-wrapper .ant-table-tbody>tr>td, 
+.autocorrection-modal .ant-table-wrapper tfoot>tr>th, 
+.autocorrection-modal .ant-table-wrapper tfoot>tr>td,
+.invoice-approved-page .ant-table-wrapper .ant-table-cell, 
+.invoice-approved-page .ant-table-wrapper .ant-table-thead>tr>th, 
+.invoice-approved-page .ant-table-wrapper .ant-table-tbody>tr>th, 
+.invoice-approved-page .ant-table-wrapper .ant-table-tbody>tr>td, 
+.invoice-approved-page .ant-table-wrapper tfoot>tr>th, 
+.invoice-approved-page .ant-table-wrapper tfoot>tr>td{
+    padding: 8px 10px;
+}
+
+.autocorrection-modal{
+    width: 100% !important;
+    max-width: 1200px;
+    
+}
+
+.autocorrection-modal .ant-modal-content{
+    min-height: 563px;
+}
+
+.autocorrection-modal .ant-modal-content .ant-modal-body{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-content: space-between;
+    height: 100%;
+    min-height: 491px;
+}
+
+@media (max-width:1024px) {
+    .invoice-approved-page .ant-steps .ant-steps-item-content {
+        display: block;
+    }
+    .table-filter{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .table-filter .search-bar {
+        width: 100%;
+        max-width: 100%;
+    }
+    .table-filter .right-seaction-bar {
+        width: 100%;
+    }
+    .table-filter .search-bar {
+        width:100%;
+    }
+    .table-filter .ant-btn{
+        width: 100%;
+    }
+    .invoice-approved-page .ant-steps.ant-steps-navigation .ant-steps-item {
+        width: 25% !important;
+    }
+    .invoice-approved-page .ant-steps.ant-steps-navigation .ant-steps-item-container{
+        margin-inline-start: 0;
+    }
+    .invoice-approved-page .ant-steps.ant-steps-navigation .ant-steps-item-container{
+        display: block;
+    }
+    .site-navigation-steps .ant-steps-item-title {
+        max-width: 207px !important;
+        min-width: 20px !important;
+        display: block;
+    }
+}
+
+@media (max-width:767px) {
+    .table-filter {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .table-filter .right-seaction-bar {
+        width: 100%;
+    }
+    .table-filter .search-bar {
+        width:100%;
+    }
+    .table-filter .ant-btn{
+        width: 100%;
+    }
+    .invoice-approved-page .ant-steps.ant-steps-navigation .ant-steps-item {
+        width: 100% !important;
+    }
+    .content-section .form-group-item {
+        flex-direction: column;
+    }
+    .content-section .form-group-item .ant-space-item{
+        width: 100%;
+    }
+}
+
+

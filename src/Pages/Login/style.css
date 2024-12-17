@@ -1,0 +1,106 @@
+.login-page{
+    display: flex;
+    padding: 0px;
+}
+
+.login-page .left-section-login,
+.login-page .right-section-login{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.login-page .left-section-login{
+    overflow: hidden;
+    height: 100vh;
+}
+
+
+.login-page .left-section-login {
+    background: #000;
+    border-radius: 0;
+}
+
+
+.login-page .left-section-login img{
+    max-width: 100%;
+}
+
+.login-page .left-section-login .heading-section{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top:0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.login-page .left-section-login .heading-section h3{
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #fff;
+    margin: 0 0 30px;
+}
+
+.login-page .left-section-login .heading-section h4{
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: rgba(255,255,255,0.5);
+    margin: 0;
+}
+
+.login-page .right-section-login .content-section-login{
+    max-width: 400px;
+    width: 100%;
+}
+
+.login-page .right-section-login .content-section-login .heading-section{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.login-page .right-section-login .content-section-login .heading-section h3{
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #101928;
+    margin: 0 0 10px;
+}
+
+.login-page .right-section-login .content-section-login .heading-section h4{
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #667185;
+    margin: 0;
+}
+
+.login-page .right-section-login .content-section-login .ant-form-item-required{
+    font-size: 16px;
+}
+
+.login-page .right-section-login .content-section-login .ant-input-affix-wrapper{
+    border: 1px solid #D7E1E9;
+    border-radius:6px;
+    padding:12px 16px;
+}
+
+.login-page .right-section-login .content-section-login  button.ant-btn{
+    width: 100%;
+    background: #000099;
+    border-radius: 28px;
+    padding: 12px 56px;
+    height: auto;
+}

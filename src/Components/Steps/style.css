@@ -1,0 +1,14 @@
+
+.site-navigation-steps {
+    margin-bottom: 40px;
+    box-shadow: 0px -1px 0 0 #e8e8e8 inset;
+}
+
+.site-navigation-steps.ant-steps.ant-steps-navigation .ant-steps-item-container{
+    width: 90%;
+}
+
+/* .site-navigation-steps .ant-steps-item-title{
+    max-width: 207px !important;
+    min-width: 207px !important;
+} */

@@ -1,0 +1,93 @@
+.header-top {
+    width: 100%;
+    background: #fff;
+    padding: 13px 20px 15px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 120, 212, 0.2);
+}
+
+.header-top .top-bar-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-top .circle-round {
+    width: 35px;
+    height: 35px;
+    background: rgba(0, 0, 0, 0.02);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.header-top .search-bar {
+    width: calc(100% - 120px);
+}
+
+.header-top .search-bar .ant-input-wrapper {
+    align-items: center;
+}
+
+.header-top .search-bar .ant-input-group-addon {
+    background: none;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    padding: 10px 8px 10px 15px;
+    position: absolute;
+    left: 0;
+}
+
+.header-top .search-bar .ant-input-group-addon .anticon-search {
+    margin-top: 2px;
+    font-size: 20px;
+}
+
+.header-top .search-bar .ant-input {
+    border: none;
+    background: rgba(0, 0, 0, 0.02);
+    border-radius: 10px;
+    padding: 10px 15px 8px 40px;
+    height: auto;
+}
+
+.header-top .circle-round:hover {
+    background: rgb(0, 27, 148);
+}
+
+.header-top .circle-round:hover svg .fill-color {
+    fill: #fff;
+}
+
+.header-top .circle-round:hover svg .stroke-color {
+    stroke: #fff;
+}
+
+.menu-button .ant-btn.ant-btn-text{
+    background: rgba(0, 0, 0, 0.02);
+}
+
+.menu-button .ant-btn.ant-btn-text:hover{
+    background: rgb(0, 27, 148);
+    color: #fff;
+}
+
+.header-top .logo-vertical{
+    display: none;
+}
+
+
+.home-page .menu-button{
+    display: none;
+}
+
+.home-page .header-top .logo-vertical{
+    display: inline-block;
+    text-align: left;
+}

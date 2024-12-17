@@ -1,0 +1,8 @@
+.form-item-33{
+    flex-wrap: wrap;
+}
+
+.form-item-33 .ant-space-item{
+    width: calc(33.33% - 13.5px);
+    flex:none !important;
+}

@@ -1,0 +1,23 @@
+
+.report-page .ant-table-wrapper .ant-table-content .ant-table-thead th{
+    background: #000099;
+    color: #fff;
+    text-align: left !important;
+}
+
+.report-page .ant-table-wrapper .ant-table-cell, 
+.report-page .ant-table-wrapper .ant-table-thead>tr>th, 
+.report-page .ant-table-wrapper .ant-table-tbody>tr>th, 
+.report-page .ant-table-wrapper .ant-table-tbody>tr>td, 
+.report-page .ant-table-wrapper tfoot>tr>th, 
+.report-page .ant-table-wrapper tfoot>tr>td{
+    padding: 8px 10px;
+}
+
+.report-page .refresh-btn{
+    position: relative;
+    padding: 20px 0;
+    width: 100%;
+    right: auto;
+    text-align: right;
+}

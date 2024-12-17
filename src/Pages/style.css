@@ -1,0 +1,159 @@
+.dashboard-section{
+    display: flex;
+    gap: 20px;
+}
+
+.dashboard-section .dashboard-left-section{
+    width: 100%;
+}
+
+.dashboard-left-section ul.list-section{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.dashboard-left-section ul.list-section li{
+    padding: 20px 16px;
+    background: #fff;
+    border: 1px solid #D7E1E9;
+    border-radius: 8px;
+    margin: 0;
+    width: calc(25% - 15px);
+    cursor: pointer;
+}
+
+.dashboard-left-section ul.list-section li h3{
+   font-size: 18px;
+   line-height: 1.3;
+   color:#000;
+   margin: 0 0 5px;
+}
+
+.dashboard-left-section ul.list-section li h4{
+    font-size: 14px;
+    line-height: 1.3;
+    color:#000;
+    margin: 0;
+ }
+
+.dashboard-left-section ul.list-section li.disabled{
+    background: #EDEFF2;
+    border: 1px solid #D7E1E9;
+    cursor: not-allowed;
+}
+
+.dashboard-left-section ul.list-section li .circle-icon{
+    background: #eaf8ff;
+    border: 1px solid #eaf8ff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.dashboard-left-section ul.list-section li .circle-icon svg{
+    color:#00AEE5;
+}
+
+.dashboard-left-section ul.list-section li.disabled .circle-icon{
+    background: #cfd1d4;
+    border: 1px solid #eaf8ff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard-left-section ul.list-section li.active{
+    background: rgb(0, 27, 148);
+    border: 1px solid rgb(0, 27, 148);
+}
+
+.dashboard-left-section ul.list-section li.active .img-section h3,
+.dashboard-left-section ul.list-section li.active h4{
+    color:#fff;
+ }
+
+
+.dashboard-left-section ul.list-section li.active{
+    background: rgb(0, 27, 148);
+    border: 1px solid rgb(0, 27, 148);
+}
+
+.dashboard-left-section ul.list-section li.disabled .circle-icon svg{
+    color:#ABADB0;
+}
+
+.dashboard-left-section ul.list-section li .img-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dashboard-left-section ul.list-section li .img-section img{
+    height: 50px;
+}
+
+.dashboard-left-section ul.list-section li .img-section h3{
+   font-size: 50px;
+   color: rgb(0, 27, 148);
+}
+
+.dashboard-left-section ul.list-section li .img-section h4{
+    font-size: 20px;
+ }
+
+.message-box p{
+    font-size: 24px;
+    line-height: 34px;
+    margin: 0;
+    padding: 35px 10px;
+}
+
+.message-box h4,
+.message-box h5{
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0;
+    padding: 0 10px;
+    font-weight: 400;
+}
+
+
+.report-page .ant-table-wrapper .ant-table-content .ant-table-thead th{
+    background: #000099;
+    color: #fff;
+    text-align: left !important;
+}
+
+.report-page .ant-table-wrapper .ant-table-cell, 
+.report-page .ant-table-wrapper .ant-table-thead>tr>th, 
+.report-page .ant-table-wrapper .ant-table-tbody>tr>th, 
+.report-page .ant-table-wrapper .ant-table-tbody>tr>td, 
+.report-page .ant-table-wrapper tfoot>tr>th, 
+.report-page .ant-table-wrapper tfoot>tr>td{
+    padding: 8px 10px;
+}
+
+.report-page .refresh-btn{
+    position: relative;
+    padding: 20px 0;
+    width: 100%;
+    right: auto;
+    text-align: right;
+}
+
+.flex-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

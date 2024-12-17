@@ -1,0 +1,41 @@
+.upload-btn-section.ant-upload-wrapper .ant-upload-drag .ant-upload {
+    padding: 70px 25px;
+}
+
+.upload-btn-section .ant-upload-list{
+    background: #F7FCFF;
+    padding: 1rem;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.upload-btn-section .ant-upload-list:empty{
+    background: #fff;
+    margin: 0;
+    height: 0;
+}
+
+.upload-btn-section .ant-upload-list-item-container{
+    border:1px solid #209326;
+    padding: 10px 16px;
+    border-radius: 8px;
+}
+
+.upload-btn-section.ant-upload-wrapper .ant-upload-list .ant-upload-list-item:hover{
+    background: none !important;
+}
+
+.upload-btn-section.ant-upload-wrapper .ant-upload-list .ant-upload-list-item-error .ant-upload-list-item-name, 
+.upload-btn-section.ant-upload-wrapper .ant-upload-list .ant-upload-list-item-error .ant-upload-icon .anticon,
+.upload-btn-section.ant-upload-wrapper .ant-upload-list .ant-upload-list-item .ant-upload-list-item-nam{
+    color: #25304B !important;
+}
+
+.small-btn-upload{
+    display: flex;
+    gap: 7px;
+    font-size: 16px;
+    color: #000099;
+}

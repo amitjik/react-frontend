@@ -1,0 +1,186 @@
+.logo-vertical{
+    margin: 0;
+    margin: 20px;
+    width: calc(100% - 40px);
+    text-align: center;
+}
+
+.ant-layout .ant-layout-sider.sidebar-nav{
+    position: fixed;
+    z-index: 9;
+    height: 100%;
+    border-right:1px solid rgba(0, 120, 212, 0.3);
+}
+
+.ant-layout .ant-layout-sider.sidebar-nav,
+.ant-layout .ant-layout-sider.sidebar-nav .ant-menu-dark{
+    background: #fff;
+   
+    
+}
+
+.ant-layout .ant-layout-sider.sidebar-nav .ant-menu{
+    overflow: auto;
+    height: calc(100vh - 197px);
+}
+
+.ant-layout .ant-layout-sider.sidebar-nav.ant-layout-sider-collapsed .ant-menu-title-content{
+    display: none;
+}
+
+.ant-layout .ant-layout-sider.sidebar-nav .ant-layout-sider-zero-width-trigger{
+    display: none;
+}
+
+.ant-layout .ant-layout-sider.sidebar-nav .ant-menu-dark{
+    padding: 20px;
+    border-top:1px solid rgba(0, 120, 212, 0.2);
+}
+
+.ant-layout .ant-layout-sider.sidebar-nav .ant-menu-dark .ant-menu-item,
+.ant-layout .ant-layout-sider.sidebar-nav .ant-menu-dark  .ant-menu-submenu .ant-menu-submenu-title {
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+    line-height: 30px;
+    height: auto;
+    color: #25304B;
+    gap:15px;
+    border-radius: 10px;
+    padding: 15px !important;
+    align-items: center;
+    display: flex;
+}
+
+.ant-layout .ant-layout-sider.sidebar-nav .ant-menu-submenu.ant-menu-submenu-active .ant-menu-submenu-title,
+.ant-layout .ant-layout-sider.sidebar-nav .ant-menu-submenu.ant-menu-submenu-selected .ant-menu-submenu-title{
+    background: rgb(0, 27, 148);
+    color: #fff;
+}
+
+.ant-layout .ant-layout-sider.sidebar-nav .ant-menu-dark .ant-menu-item.ant-menu-item-active,
+.ant-layout .ant-layout-sider.sidebar-nav .ant-menu-dark .ant-menu-item.ant-menu-item-selected {
+   background: rgb(0, 27, 148);
+    color: #fff;
+}
+
+
+.ant-layout .ant-layout-sider.sidebar-nav .ant-menu-submenu.ant-menu-submenu-active .ant-menu-submenu-title svg .fill-color,
+.ant-layout .ant-layout-sider.sidebar-nav .ant-menu-submenu.ant-menu-submenu-selected .ant-menu-submenu-title svg .fill-color,
+.ant-layout .ant-layout-sider.sidebar-nav .ant-menu-dark .ant-menu-item.ant-menu-item-active svg .fill-color,
+.ant-layout .ant-layout-sider.sidebar-nav .ant-menu-dark .ant-menu-item.ant-menu-item-selected svg .fill-color{
+    fill: #fff;
+ }
+
+ .ant-layout .ant-layout-sider.sidebar-nav .ant-menu-submenu.ant-menu-submenu-active .ant-menu-submenu-title svg .stroke-color,
+ .ant-layout .ant-layout-sider.sidebar-nav .ant-menu-submenu.ant-menu-submenu-selected .ant-menu-submenu-title svg .stroke-color,
+.ant-layout .ant-layout-sider.sidebar-nav .ant-menu-dark .ant-menu-item.ant-menu-item-active svg .stroke-color,
+.ant-layout .ant-layout-sider.sidebar-nav .ant-menu-dark .ant-menu-item.ant-menu-item-selected svg .stroke-color{
+    stroke: #fff;
+ }
+
+ .ant-layout .ant-layout-sider.sidebar-nav .ant-menu.ant-menu-sub{
+    height: auto;
+    background: #fff;
+    position: relative;
+    position: relative;
+    margin-left: 14px;
+    padding-left: 6px;
+}
+
+.ant-layout .ant-layout-sider.sidebar-nav .ant-menu.ant-menu-sub::before {
+    border-left: 1px solid #ccc;
+    width: 1px;
+    background: #D8DBE4;
+    position: absolute;
+    left: 9px;
+    height: calc(100% - 58px);
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.ant-layout .ant-layout-sider.sidebar-nav .ant-menu.ant-menu-sub .ant-menu-item{
+    position: relative;
+}
+
+.ant-layout .ant-layout-sider.sidebar-nav .ant-menu.ant-menu-sub .ant-menu-item.ant-menu-item-active,
+.ant-layout .ant-layout-sider.sidebar-nav .ant-menu.ant-menu-sub .ant-menu-item.ant-menu-item-selected{
+    background: transparent;
+    color: #000099;
+}
+
+.ant-layout .ant-layout-sider.sidebar-nav .ant-menu.ant-menu-sub .ant-menu-item::after{
+    border: none;
+    width: 8px;
+    height: 8px !important;
+    background: #D8DBE4;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: auto;
+    opacity: 1;
+    transform: unset;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.ant-layout .ant-layout-sider.sidebar-nav .ant-menu.ant-menu-sub .ant-menu-item.ant-menu-item-active::after,
+.ant-layout .ant-layout-sider.sidebar-nav .ant-menu.ant-menu-sub .ant-menu-item.ant-menu-item-selected::after{
+    background: #000099;
+}
+
+.ant-layout-sider-collapsed.sidebar-nav .logo-vertical{
+    position: relative;
+    height: 26px;
+    overflow: hidden;
+    width: 27px;
+    margin: 20px auto;
+}
+
+.ant-layout-sider-collapsed.sidebar-nav .logo-vertical img{
+    position: absolute;
+    right: 0;
+}
+.user-info-section {
+    border-top: 1px solid #D7E1E9;
+    padding: 30px 20px;
+}
+.user-info-section .user-info-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #E6E7EC;
+    border: 1px solid #E6E7EC;
+    border-radius: 12px;
+    padding: 15px;
+    gap: 20px;
+    transition: all 0.3s ease;
+}
+.user-info-section .user-info-content .user-info-description{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.user-info-section .user-info-content .user-info-description .user-name h4{
+    color:#25304B;
+    margin: 0;
+    font-size: 16px;
+}
+
+.user-info-section .user-info-content .user-info-description .user-name .user-degination{
+    color:#83899F;
+    margin: 0;
+    font-size: 12px;
+}
+
+.ant-layout-sider-collapsed .user-info-section .user-info-content .user-info-arrow,
+.ant-layout-sider-collapsed .user-info-section .user-info-content .user-info-description .user-name{
+    display: none;
+}
+
+.ant-layout-sider-collapsed .user-info-section .user-info-content{
+    padding: 4px;
+}

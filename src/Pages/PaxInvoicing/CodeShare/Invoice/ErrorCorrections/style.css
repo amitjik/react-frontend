@@ -1,0 +1,47 @@
+.error-report-page{
+    padding: 25px 16px;
+    background: #fff;
+    border: 1px solid #D7E1E9;
+    border-radius: 8px;
+}
+.error-content{
+    
+    display: flex;
+    gap :40px;
+}
+
+.error-content .content-section{
+    width: 50%;
+    padding: 50px 30px;
+}
+
+
+.error-content .ant-form{
+    max-width: 300px;
+    margin: auto;
+}
+
+.error-content .content-section .heading {
+    font-size: 20px;
+    text-transform: uppercase;
+    max-width: 300px;
+    margin: auto;
+    border: none;
+}
+
+.error-content .ant-form .form-btn .ant-space,
+.error-content .ant-form .form-btn .ant-btn{
+    width: 100%;
+}
+
+.upload-file-error.upload-btn-section.ant-upload-wrapper .ant-upload-drag .ant-upload {
+    padding: 11px 25px;
+    text-align: left;
+    background: #F8F8F8;
+}
+
+.upload-file-error.upload-btn-section .ant-upload-list{
+    padding: 0;
+}
+
+

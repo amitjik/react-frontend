@@ -1,0 +1,21 @@
+<svg width="392" height="535" viewBox="0 0 392 535" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_169_1869" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="392" height="535">
+<rect width="392" height="535" rx="8" fill="#09009A"/>
+</mask>
+<g mask="url(#mask0_169_1869)">
+<rect x="63.1555" width="328.844" height="535" rx="8" fill="#09009A"/>
+<ellipse cx="797.49" cy="740.826" rx="797.49" ry="740.826" transform="matrix(-0.971032 -0.238948 0.280089 -0.959974 845.609 900.484)" fill="url(#paint0_linear_169_1869)"/>
+<ellipse opacity="0.1" cx="-449.494" cy="-190.398" rx="492.382" ry="452.188" fill="#4B68FF"/>
+<ellipse opacity="0.1" cx="-449.492" cy="-190.399" rx="581.411" ry="533.949" fill="#4B68FF"/>
+<ellipse opacity="0.1" cx="-449.494" cy="-190.399" rx="666.2" ry="611.816" fill="#4B68FF"/>
+<ellipse opacity="0.1" cx="-449.493" cy="-190.4" rx="777.031" ry="713.6" fill="#4B68FF"/>
+</g>
+<ellipse opacity="0.4" cx="40.8333" cy="60" rx="27.7667" ry="26" fill="#90C8EC"/>
+<ellipse cx="79.4889" cy="31" rx="7.62222" ry="7" fill="#F3D568"/>
+<defs>
+<linearGradient id="paint0_linear_169_1869" x1="797.49" y1="4.01424e-07" x2="784.978" y2="2599.63" gradientUnits="userSpaceOnUse">
+<stop stop-color="#001B94"/>
+<stop offset="1" stop-color="#027BFF"/>
+</linearGradient>
+</defs>
+</svg>
